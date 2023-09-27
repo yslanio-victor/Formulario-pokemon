@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+</head>
+<body class="myBackground">
+    <header class="layout-cabecalho">
+        <div class="logo">
+            <img src="../img/Team_Rocket_Grunts.png" alt="Logo Equipe Rocket" width="90px">
+            <h1 id="topo">TEAM ROCKET</h1>
+        </div>
+    </header>
+
+    <nav class="container">
+    <div class="d-flex justify-content-center">
+        <h1 class="h1"><em>Seja um treinador Pokémon!</em></h1> 
+    </div>
+    
+    <div class="d-inline-flex p-5 bd-highlight">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Informe seu novo vulgo de treinador</label>
+              <input type="text" class="form-control" id="Digite seu nome">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Informe seu email</label>
+              <input type="email" class="form-control" id="Digite seu email">
+            </div>
+            <div class="col-12">
+              <label for="inputDate" class="form-label">Informe sua data de Nascimento</label>
+              <input type="date" class="form-control" id="inputDate" placeholder="data/mês/ano">
+            </div>
+            <div class="col-12">
+              <label for="inputQuest" class="form-label">Por que você quer um Pokémon?</label>
+              <input type="text" class="form-control" id="inputQuest" placeholder="Seja sincero">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Já teve problema com a polícia?</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Seja sincero">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Onde deseja receber seu pokemon?</label>
+              <select id="inputState" class="form-select">
+                <option selected>ESCOLHA</option>
+                <option>Minha casa</option>
+                <option>Na Rua</option>
+                <option>Solta no meio da rua que eu me viro</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">CEP para entrega</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Por minha conta em risco
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-danger" >Enviar informações</button>
+        
+            </div>
+            
+          </form>
+        </div>
+    </nav>
+</body>
+</html>
